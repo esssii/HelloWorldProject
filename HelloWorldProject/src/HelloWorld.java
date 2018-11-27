@@ -7,5 +7,8 @@ public class HelloWorld {
 		//das ist ein Kommentar, kein Code der ausgeführt wird
 		//das ist ein einzeiliger Kommentar
 		/*
-}		*Mehrzeiligen KOmmentar schreiben
+		*Mehrzeiligen KOmmentar schreiben
 		*/
+		
+	}
+}
