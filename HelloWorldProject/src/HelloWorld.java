@@ -10,5 +10,7 @@ public class HelloWorld {
 		*Mehrzeiligen Kommentar schreiben
 		*/
 		System.out.println("Hallo Klasse");
+		System.out.println("Schönen Abend");
+		
 	}
 }
