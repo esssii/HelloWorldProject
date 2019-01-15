@@ -1,13 +1,12 @@
 package Basics;
 
-public class °	 {
+public class variable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// 1 bit - wahr oder falsch / 0 oder 1
+		// 1 bit - Wahr oder falsch / 0 oder 1
 		boolean boolVar;
 		boolVar = true;
-		System.out.println(boolVar);
+		System.out.print(boolVar);
 		//
 		boolVar = false;
 		System.out.println(boolVar);
@@ -15,26 +14,20 @@ public class °	 {
 		// short 16bit
 		short shortVar;
 		System.out.println(Short.MIN_VALUE);
-		System.out.println(Short.MIN_VALUE);
+		System.out.println(Short.MAX_VALUE);
 		shortVar = 24673;
 		System.out.println(shortVar);
 		//
-		shortVar = 2 + 5;
+		shortVar = 2+5;
 		System.out.println(shortVar);
 		//
-		shortVar = 2 * 5;
+		shortVar = 9-5;
 		System.out.println(shortVar);
 		//
-		shortVar = 3 + 7;
+		shortVar = 3*3;
 		System.out.println(shortVar);
 		//
-		shortVar = 29 - 5;
-		System.out.println(shortVar);
-		//
-		shortVar = 8 / 4;
-		System.out.println(shortVar);
-		//
-		shortVar = 2 - 9;
+		shortVar = 9/4;
 		System.out.println(shortVar);
 		//
 		System.out.println(9/4.0);
@@ -53,14 +46,28 @@ public class °	 {
 		longVar = 1000*1000*1000*1000;
 		System.out.println(longVar);
 		//
-		System.out.println(System.currentTimeMillis()/1000/60/60/24/365)
-		
-		
-		
-		
+		System.out.println(System.currentTimeMillis()/1000/60/60/24/365);
+		//
+		//
+		//
+		float floatVar;
+		floatVar = 10/3f; // 10/3.0
+		System.out.println(floatVar);
+		System.out.println(Float.MIN_VALUE);
+		System.out.println(Float.MAX_VALUE);
+		//
+		double doubleVar;
+		doubleVar = 10/3d; // 10/3.0
+		System.out.print("Double: ");
+		System.out.println(doubleVar);
+		//
+		System.out.print("Float: ");
+		System.out.println(floatVar);
+		//
+		//
+		String stringVar;
+		stringVar = "Hallo Paul.";
+		System.out.println(stringVar);
 
-
-		
 	}
-
 }
