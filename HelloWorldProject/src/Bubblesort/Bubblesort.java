@@ -1,6 +1,6 @@
-package sortieren;
+package Bubblesort;
 
-public class BubbleSort {
+public class Bubblesort {
 
 	public static void main(String[] args) {
 		// Bubblesort Array
