@@ -270,9 +270,8 @@ public class myfirstguiwindow {
 						//
 						Person[] personen = gson.fromJson(fr, Person[].class);
 						//
-						ArrayList<Person> personenListe = new ArrayList<Person>(Arrays.asList(personen));
+						ArrayList<Person> PersonenListe = new ArrayList<Person>(Arrays.asList(personen));
 						//
-						Person.setListe(personenListe);
 					}
 				} catch (FileNotFoundException e1) {
 					// 
