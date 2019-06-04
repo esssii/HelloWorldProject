@@ -1,4 +1,3 @@
-<<<<<<< HEAD
     
 package test;
 
@@ -41,7 +40,6 @@ public class PersonTest {
 		System.out.println(p1);
 		
 
->>>>>>> branch 'master' of https://github.com/esssii/HelloWorldProject.git
 	}
 
 }
